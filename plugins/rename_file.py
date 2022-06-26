@@ -163,7 +163,7 @@ async def rename_doc(bot, update):
                 caption=f"{caption_text2}",
                 parse_mode = "html",
                 reply_markup=InlineKeyboardMarkup([
-                    [ InlineKeyboardButton(text="🎀sᴜᴘᴘᴏʀᴛ ᴄʜᴀᴛ🎀", url=f"https://t.me/Vbotzsupport")]
+                    [ InlineKeyboardButton(text="🎀sᴜᴘᴘᴏʀᴛ ᴄʜᴀᴛ🎀", url=f"https://t.me/+FU_y7TC9CZ01ZWQ1")]
               ]), 
                 reply_to_message_id=update.reply_to_message.message_id,
                 progress=progress_for_pyrogram,
